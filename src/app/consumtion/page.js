@@ -22,7 +22,7 @@ const pagedata = {
   pageName: 'Product Name',
 };
 
-export default function vLogos() {
+export default function Consumtion() {
   // const [isModalOpen, setModalOpen] = useState(false);
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
@@ -57,16 +57,16 @@ export default function vLogos() {
                 className="mySwiper2"
               >
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                  <Image width={400} height={500} alt="product img" src="https://swiperjs.com/demos/images/nature-1.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                  <Image width={400} height={500} alt="product img" src="https://swiperjs.com/demos/images/nature-2.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                  <Image width={400} height={500} alt="product img" src="https://swiperjs.com/demos/images/nature-3.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                  <Image width={400} height={500} alt="product img" src="https://swiperjs.com/demos/images/nature-4.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
                   <video width="100%" height="100%" controls>
@@ -87,19 +87,19 @@ export default function vLogos() {
                 className="mySwiper"
               >
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                  <Image width={100} height={125} alt="product img" src="https://swiperjs.com/demos/images/nature-1.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                  <Image width={100} height={125} alt="product img" src="https://swiperjs.com/demos/images/nature-2.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                  <Image width={100} height={125} alt="product img" src="https://swiperjs.com/demos/images/nature-3.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                  <Image width={100} height={125} alt="product img" src="https://swiperjs.com/demos/images/nature-4.jpg" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                  <Image width={100} height={125} alt="product img" src="https://swiperjs.com/demos/images/nature-5.jpg" />
                 </SwiperSlide>
               </Swiper>
             </div>

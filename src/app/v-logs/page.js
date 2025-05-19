@@ -13,7 +13,7 @@ const pagedata = {
   pageName: 'Our Video Logs',
 };
 
-export default function vLogos() {
+export default function Vlogos() {
 	const [isModalOpen, setModalOpen] = useState(false);
 
   const properties = [

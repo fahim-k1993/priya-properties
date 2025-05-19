@@ -46,15 +46,15 @@ export default function Header() {
                         />
             </div>
             <nav id="mainNav">
-                <a href="/">Home</a>
-                <a href="/about">About Priya</a>
-                <a href="/current-sold-listing">Current and Sold</a>
-                <a href="#">Current Listings</a>
-                <a href="/v-logs">V Blogs</a>
-                <a href="/videos">Videos</a>
-                <a href="/contact" className="nav-btn">Contact Us</a>
+                <Link href="/">Home</Link>
+                <Link href="/about">About Priya</Link>
+                <Link href="/current-sold-listing">Current and Sold</Link>
+                {/* <Link href="#">Current Listings</Link> */}
+                <Link href="/v-logs">V Blogs</Link>
+                <Link href="/videos">Videos</Link>
+                <Link href="/contact" className="nav-btn">Contact Us</Link>
             </nav>
-            <a href="#" className="call-btn">
+            <Link href="#" className="call-btn">
                 <Image
                           className="logo"
                           src="/call-img.png"
@@ -63,7 +63,7 @@ export default function Header() {
                           height={38}
                           priority
                         />
-            </a>
+            </Link>
         </div>
     </header>
     </>
